@@ -61,10 +61,6 @@ class GridItem extends StatelessWidget {
         btnTapHandler(item);
       },
       child: Card(
-        color: const Color.fromARGB(255, 17, 163, 165),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10),
-        ),
         child: Center(
           child: Text(
             item,
